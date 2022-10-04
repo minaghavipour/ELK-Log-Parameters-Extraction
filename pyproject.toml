@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "ogre"
+version = "0.1.0"
+description = ""
+authors = ["mma <mma137421@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+elasticsearch = "7.17.4"
+pandas = "1.4.3"
+elasticsearch-dsl = "7.4.0"
+
+[tool.poetry.dev-dependencies]
+pytest-cov = "3.0.0"
+pytest = "7.1.2"
+pre-commit = "2.18.1"
+isort = "5.10.1"
+black = "22.3.0"
+flake8 = "4.0.1"
+mypy = "0.950"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
